@@ -1,0 +1,24 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+html, body{
+	height: 100%;
+}
+
+.estudos{
+	width: 80%;
+	height: auto;
+	background-color: black;
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+
+.estudos h1{
+	color: orangered;
+	font-size: 30px;
+	font-style: normal;
+
+} 	
