@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+
+.center{
+	box-sizing: border-box;faz o aumento de tamanho ser interno e não externo*/
+	width: 600px;
+	margin: 0 auto;
+	background-color: greenyellow;
+	padding: 10px 70px;
+}
+
+.artigo{
+	margin-right: 100px;
+	margin-left: 100px;
+}
