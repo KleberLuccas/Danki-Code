@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+
+span{
+	width: 30px;
+	height: 300px;
+	background-color: red;
+}
+
+p{
+	width: 30px;
+	height: 300px;
+	margin-right: -4px;
+	display: inline-block;
+}
+/*.center{
+	box-sizing: content-box;
+	width: 1280px;
+	margin: 0 auto;
+	background-color: grey;
+}
+
+.artigo{
+	/*box-sizing: border-box;
+	border-style: dotted; /*borda pontilhada*/
+	/*border-width: 3px;
+	border-color: rgb(255, 0, 0);
+	border: 3px dotted rgb(255, 0, 0); /*resumo dos três anteriores*/
+	/*outline: 3px solid blue;/*borda sem considerar o elemento pai*/
+	/*vertical-align:top;
+	margin-top: 30px;
+	margin-right: -4px;/*necessário para o debaixo funcionar*/
+	/*display: inline-block; /*colocar duas divs na mesma linha*/
+	/*width: 640px;
+}
