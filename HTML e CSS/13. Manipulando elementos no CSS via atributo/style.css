@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+
+a[href]{/*para atacar todos os href*/
+	background-color: yellow;
+}
+
+a[href="https://www.google.com"]{/*para atacar href especifico*/
+	background-color: blue;}
+
+a[href*="google"]{/*ataca todos os com a tag google*/
+
+}
+
+a[attr~="goo"]{/*ataca entre espaço dos atributos*/
+	color: pink;
+}
+
+a[attr|="google"]{/*ataca quando começa com google e é separado por -*/
+	color: blue;
+}
+
+a[attr^="goo"]{/*ataca quando começa com a goo*/
+
+}
+
+a[attr$="google"]{/*ataca quando termina com google*/
+
+}
+
+.texto[type=text]{/*especifica o type a ser colorido*/
+	background-color: green;
+}
+
+input[type=submit]{
+	background-color: yellow;
+}
