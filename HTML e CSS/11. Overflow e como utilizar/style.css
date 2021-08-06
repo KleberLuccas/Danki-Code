@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+
+.box{
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	background: grey;
+	overflow: visible; /*lida com o texto excedente*//*hidden esconde*//*auto cria um scrollbar*//*scroll deixa a scrollbar sempre visivel, mesmo quando nao precisa*//*visible deixa visivel*/
+}
