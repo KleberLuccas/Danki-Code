@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+
+/*table.tabble1{
+	width: 300px;
+	border-collapse: collapse; tira o espaço entre bordas
+	margin: 0 auto;
+}
+
+table tr td{
+	background-color: rgb(200, 200, 200);
+	height: 20px;
+	vertical-align: middle;
+	text-align: center;
+	border: 3px solid black;
+}*/
+
+.menu-fixed{
+	width: 300px;
+	height: 200px;
+	background: #069;
+	position: absolute;/*absolute fixa a posição no documento e o fixed fixa a posição na tela e o relative coloca de acordo com outros elementos*/
+	left: 0px;
+	top: 0px;
+}
+
+.box{
+	width: 100%;
+	height: 1400px;
+	background: green;
+}
+
+.box p{
+	width: 400px;
+}
