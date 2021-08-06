@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+
+.box{
+	width: 40%;
+	height: 300px;
+	color: grey;
+}
+.box2{
+	height: auto;
+}
+.box p{
+	display: inline-block;
+	color: initial;
+	margin: initial;
+	background-color: initial;
+	/*height: inherit;
+	width: inherit; herança da classe pai
+	background: inherit;*/
+}
+@media screen and (max-width: 480px){
+	.box{
+		height: auto;
+	}
+}
