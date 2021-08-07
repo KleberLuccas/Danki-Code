@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+}
+
+.bg{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+
+	/*BACKGROUNDS*/
+	background-image: url(https://images2.alphacoders.com/516/thumb-1920-516664.jpg);
+	background-size: cover;/*altura/largura*/ /*cover para background de capa*/
+	background-position: left right;/*posicionar o foco no centro*//* center, right, left, top, bottom, right top, left top, right bottom, left bottom*/
+	background-repeat: no-repeat;
+}
