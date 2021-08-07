@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+/*.teste,.teste1,.teste2{
+	width: 300px;
+	margin-top: 30px;
+	margin-left: 30px;
+	display: inline-block;
+	height: 30px;
+	background-color: #ccc;
+}
+
+.teste1{
+	background-color: rgb(98, 98, 98);
+}
+
+.teste2{
+	background-color: rgb(50, 50, 50);
+}
+*/
+/*Passar o mouse em cima*/
+/*.teste:hover{  
+	height: 900px;
+	background-color: blue;
+}
+
+.teste:hover, .teste1, .teste2{
+	vertical-align: top;
+}*/
+
+/*Manter o mouse pressionado*/
+/*.teste:active{
+	background-color: black;
+}
+*/
+
+/*Clicar em cima do formulario*/
+/*.teste:focus{
+	background-color: red;
+}
+
+.testearea1:focus{
+	display: block;
+	width: 600px;
+	height: 400px;
+}
+*/
+/*Quando abre o link*/
+/*.link1:visited{
+	color: red;
+}*/
+/*link*/
+/*.link1:link{
+	color: orange;
+}*/
