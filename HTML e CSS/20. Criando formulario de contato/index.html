@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<fieldset><!--Criar um grupo de elementos de formulario-->
+			<legend>Meu formulario</legend><!--Nome do grupo-->
+			<div><input type="text" name="nome" placeholder="Digite o seu nome"></div>
+			<div><input type="text" name="email" placeholder="Digite o seu email"></div>
+			<div>
+				<select name="lista">
+					<option disabled selected>Qual sua idade</option> <!--Nome inicial, desabilitado-->
+					<option>20</option>
+					<option>25+</option>
+					<option>40+</option>
+				</select>
+			</div>
+			<h2>Qual sua cidade</h2>
+			<div class="input">
+			<div>
+				<input type="radio" name="cidade" /><span>Goiania</span>
+			</div>
+			<div>
+				<input type="radio" name="cidade" /><span>Aparecida de Goiania</span>
+			</div>
+			<div>
+				<input type="radio" name="cidade" /><span>Campo pequeno</span>
+			</div>
+
+			<h2>O que voce gosta de comer</h2>
+			<div class="input">
+			<div>
+				<input type="checkbox" name="comida" /><span>Sushi</span>
+			</div>
+			<div>
+				<input type="checkbox" name="comida" /><span>Macarrão</span>
+			</div>
+			<div>
+				<input type="checkbox" name="comida" /><span>Arroz</span>
+			</div>
+
+			<div>
+				<textarea placeholder="Observações"></textarea>
+			</div>
+
+			<div>
+				<input type="submit" name="acao" value="Enviar">
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>

@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+form{
+	width: 96%;/*tamanho em largura*/
+	max-width: 600px;/*tamanho em altura*/
+	margin: 30px auto; /*centralizar na tela*/
+	text-align: center; /*centralizar o conteudo do form*/
+}
+
+form fieldset{
+	padding: 20px 40px;/*aumentar espaçamento*/
+	border: 1px solid #ccc; /*modificar a borda do fieldset*/
+}
+form legend{
+	text-align: left;/*voltar a legenda para a esquerda*/
+	font-size: 17px;/*tamanho da fonte da legenda*/
+	color: rgb(130, 130, 130);/*cor da fonte da legenda*/
+}
+
+form input[type=text]{
+	font-family: tahoma;
+	display: inline-block;
+	margin-top: 30px;/*margem de 30px em cima dos input*/
+	width: 80%;/*tamanho de 80% dos 96%*/
+	padding: 10px 13px; /*deixar o local de digitar mais gordo*/
+	border: 1px solid #ccc;
+}
+
+form input[type=text]:focus, form select:focus, form textarea: focus{
+	outline: 0;
+}
+
+form select{
+	font-family: tahoma;
+	width:calc(80% + 26px);/*80%+26pixeis porque ele ja vem com borderbox como padrão e não fica naturalmente igual o input
+	margin-top: 30px;/*separação dos input*/
+	padding: 10px 13px;/*grossura igual do input*/
+	color: rgb(100, 100, 100);
+	display: inline-block;
+	margin-top: 30px;
+	border: 1px solid #ccc;
+}
+
+/*cor no option disable*/
+/*
+form select option[disabled]{
+	color: orange;
+}
+*/
+/*cor no option visible*/
+/*
+form select option:nth-of-type(3){
+	color: red;
+}
+*/
+form h2{
+	margin-top: 20px;/*espaçamento*/
+}
+
+.input{
+	display: inline-block;/*alinhar com base no restante*/
+	text-align: left;/*ficar do lado esquerdo*/
+	margin-top: 20px;/*espaçamento*/
+}
+
+.input span{
+	margin-left: 13px;/*espaçamento*/
+	font-size: 16px;/*tamanho da fonte*/
+	color: rgb(130, 130, 130);/*cor*/
+}
+
+form input[type="submit"]{
+	margin-top: 30px;
+	border: 0;
+	width: 140px;
+	height: 40px;
+	border: 2px solid black;
+	cursor: pointer;
+	background-color: lightpink;
+	font-size: 16px;
+	color: white;
+}
+
+form textarea{
+	font-family: tahoma;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	height: 140px;
+	width: 80%;
+	padding: 10px 13px;
+}
