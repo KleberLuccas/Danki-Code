@@ -14,37 +14,37 @@
 			<div>
 				<select name="lista">
 					<option disabled selected>Qual sua idade</option> <!--Nome inicial, desabilitado-->
-					<option>20</option>
-					<option>25+</option>
-					<option>40+</option>
+					<option value="20">20</option>
+					<option value="25+">25+</option>
+					<option value="40+">40+</option>
 				</select>
 			</div>
 			<h2>Qual sua cidade</h2>
 			<div class="input">
 			<div>
-				<input type="radio" name="cidade" /><span>Goiania</span>
+				<input type="radio" name="cidade" value="goiania" /><span>Goiania</span>
 			</div>
 			<div>
-				<input type="radio" name="cidade" /><span>Aparecida de Goiania</span>
+				<input type="radio" name="cidade" value="Aparecida de goiania" /><span>Aparecida de Goiania</span>
 			</div>
 			<div>
-				<input type="radio" name="cidade" /><span>Campo pequeno</span>
+				<input type="radio" name="cidade" value="campo pequeno" /><span>Campo pequeno</span>
 			</div>
 
 			<h2>O que voce gosta de comer</h2>
 			<div class="input">
 			<div>
-				<input type="checkbox" name="comida" /><span>Sushi</span>
+				<input type="checkbox" name="comida[]" value="sushi" /><span>Sushi</span>
 			</div>
 			<div>
-				<input type="checkbox" name="comida" /><span>Macarrão</span>
+				<input type="checkbox" name="comida[]" value="macarrão" /><span>Macarrão</span>
 			</div>
 			<div>
-				<input type="checkbox" name="comida" /><span>Arroz</span>
+				<input type="checkbox" name="comida[]" value="arroz" /><span>Arroz</span>
 			</div>
 
 			<div>
-				<textarea placeholder="Observações"></textarea>
+				<textarea name="observação" placeholder="Observações"></textarea>
 			</div>
 
 			<div>
