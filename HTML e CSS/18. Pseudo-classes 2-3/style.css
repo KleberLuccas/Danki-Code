@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+ul{
+	list-style-position: inside;
+}
+
+.box{
+	width: 100%;
+}
+
+.box > div{
+	box-sizing: border-box;
+	float: left;
+	width: 33.3%;
+	height: 400px;
+	background-color: red;
+	border: 1px solid black;
+}
+
+/*acrescenta antes da classe p*/
+/*
+.p::before{
+	content:'Meu ';
+}
+/*
+/*acrescenta depois da classe p*/
+/*
+.p::after{
+	content:' Kleber';
+}
+*/
+/*apenas o p vazio*/
+/*
+p:empty{
+	background-color: orange;
+	width: 50%;
+	height: 200px;
+}
+*/
+
+/*ignora a div com classe One*/	
+/*
+.box div:not(.one){
+	background-color: gold;
+}
+*/
+
+/*atacar o ultimo elemento dentro da pseudo-classe*/
+/*.box div:last-of-type p{
+	color: rgba(255,255,255,1)
+}*/
+
+/*ataca o ultimo do tipo*/
+/*
+.box div:last-of-type,.box p:last-of-type{
+	background-color: green;
+}
+
+.box p:last-of-type{
+	color: rgb(200, 200, 200);
+}
+*/
+/*Verifica apenas a posição na tabela*/
+/* 
+ul li:nth-of-type(2){
+	color: red;
+}
+*/
+/*Verifica a posição de tudo no ul*/
+/*
+ul li:nth-child(1){
+	color: red;
+}
+*/
