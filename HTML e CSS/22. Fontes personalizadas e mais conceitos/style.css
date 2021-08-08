@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	height: 100%;
+	font-family: "Minha fonte";
+}
+
+/*importar uma font do pc*/
+@font-face{
+	font-family: "Minha fonte";
+	src:url(Fontes/OpenSansCondensed-Light.ttf);
+}
+
+/*Para mudar a fonte do form*//*Com > só pega o diretamente dentro do form, sem o > pega todo o resto também*/
+form *{
+	font-family: "Minha fonte";
+}
+/*
+.box p{
+	font-family: "Minha fonte";
+}
+*/
+/*O important vence o nivel de especificação*/
+/*
+.text{
+	font-family: tahoma !important;
+}
+*/
