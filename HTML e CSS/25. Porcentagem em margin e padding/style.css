@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 500px;
+    height: 400px;
+    background-color: orange;
+}
+/*o valor % é sempre herdado do pai*/
+.child{
+    width: 50%;
+    padding-top: 25%;
+    background-color: grey;
+}
